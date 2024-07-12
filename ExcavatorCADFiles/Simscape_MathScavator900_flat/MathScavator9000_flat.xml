@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/13/24||16:25:59" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="MathScavator9000_flat" uid="MathScavator9000_flat" version="393">
+<AssemblyFile name="MathScavator9000_flat.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="ExcavatorBase-1" uid="ExcavatorBase-1" grounded="true" entityUid="ExcavatorBase*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Chassis_Primary_v2_PART-1" uid="Chassis_Primary_v2_PART-1" grounded="true" entityUid="Chassis_Primary_v2_PART*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="BoomCyl-3" uid="BoomCyl-3" entityUid="BoomCyl*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.7708248416380975 0.63704714387053174 0 -0.63704714387053174 0.7708248416380975</Rotation>
+<Translation>0.45395272160835132 0.88259134794832061 0.37259170315466256</Translation>
+</Transform>
+</Instance>
+<Instance name="StickPiston-1" uid="StickPiston-1" entityUid="StickPiston*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.38175440143059114 0.92426380270373643 0 -0.92426380270373643 -0.38175440143059114</Rotation>
+<Translation>0.0059527454765345477 6.8578328136913376 1.4134981729161504</Translation>
+</Transform>
+</Instance>
+<Instance name="BucketLink-2" uid="BucketLink-2" entityUid="BucketLink*:*Default">
+<Transform>
+<Rotation>0.99999999991401822 8.0361980221621442e-14 -1.3113489214509233e-05 8.6184656176947989e-06 0.75369757702598028 0.65722139520171485 9.8836051001475463e-06 -0.65722139525822387 0.75369757696117601</Rotation>
+<Translation>0.0019047206247753831 6.5797703055314551 -2.5186916318898147</Translation>
+</Transform>
+</Instance>
+<Instance name="StickLink-1" uid="StickLink-1" entityUid="StickLink*:*Default">
+<Transform>
+<Rotation>0.99999997329169399 -0.00023112033936972093 -1.9420438721449637e-15 5.5598959855088497e-05 0.24056281035183291 0.97063357204682743 -0.00022433316057464002 -0.97063354612284891 0.2405628167768582</Rotation>
+<Translation>0.25995274571561555 6.3625913479497598 -1.6424082968452172</Translation>
+</Transform>
+</Instance>
+<Instance name="BucketPiston-2" uid="BucketPiston-2" entityUid="BucketPiston*:*Default">
+<Transform>
+<Rotation>1 1.1477126098706304e-15 1.1332210306231375e-15 1.3168116932888083e-15 -0.98667268136508657 -0.16271760767609222 9.3136518268640474e-16 0.16271760767609222 -0.98667268136508657</Rotation>
+<Translation>0.0039527457149527018 6.579770305532711 -2.5186916318925681</Translation>
+</Transform>
+</Instance>
+<Instance name="Boom-2" uid="Boom-2" entityUid="Boom*:*Default">
+<Transform>
+<Rotation>0 3.0278196711706986e-16 0.99999999999999989 0.99999999999999989 3.5527136788005009e-15 0 -3.5527136788005009e-15 0.99999999999999989 -3.0278196711706996e-16</Rotation>
+<Translation>0.0039527216082604517 -0.017408652051658258 0.59759170315453036</Translation>
+</Transform>
+</Instance>
+<Instance name="Bucket-2" uid="Bucket-2" entityUid="Bucket*:*Default">
+<Transform>
+<Rotation>-5.8219016240113815e-16 -5.5303296464410471e-16 1 1 3.6637359812630166e-15 5.8219016240114012e-16 -3.6637359812630166e-15 1 5.5303296464410254e-16</Rotation>
+<Translation>-0.0012472542850486955 6.2134488330568027 -2.3819894919651419</Translation>
+</Transform>
+</Instance>
+<Instance name="Stick-1" uid="Stick-1" entityUid="Stick*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999978 -0.99999999999999989 -2.7755575615628914e-15 0 2.7755575615628914e-15 -0.99999999999999989 0</Rotation>
+<Translation>0.0039527457149550011 6.2225913479483443 0.59759170315450816</Translation>
+</Transform>
+</Instance>
+<Instance name="BoomPiston-2" uid="BoomPiston-2" entityUid="BoomPiston*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.77082484163809761 0.63704714387053152 0 -0.63704714387053152 0.77082484163809761</Rotation>
+<Translation>0.45395272160835143 2.6988824923370025 2.5702977084524679</Translation>
+</Transform>
+</Instance>
+<Instance name="BoomPiston-3" uid="BoomPiston-3" entityUid="BoomPiston*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.77082484163809573 0.63704714387053396 0 -0.63704714387053396 0.77082484163809573</Rotation>
+<Translation>-0.44604727839174169 2.6988824923369932 2.5702977084524687</Translation>
+</Transform>
+</Instance>
+<Instance name="BoomCyl-2" uid="BoomCyl-2" entityUid="BoomCyl*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.77082484163809561 0.63704714387053418 0 -0.63704714387053418 0.77082484163809561</Rotation>
+<Translation>-0.4460472783917418 0.8825913479483154 0.37259170315467505</Translation>
+</Transform>
+</Instance>
+<Instance name="BucketCyl-2" uid="BucketCyl-2" entityUid="BucketCyl*:*Default">
+<Transform>
+<Rotation>1 -1.1071291137847788e-16 2.5098096575922361e-16 0 -0.98667268136508657 -0.16271760767609217 2.6565100253561323e-16 0.16271760767609217 -0.98667268136508657</Rotation>
+<Translation>0.0039527457149494726 7.0661755686429206 0.43072971246729946</Translation>
+</Transform>
+</Instance>
+<Instance name="StickCyl-1" uid="StickCyl-1" entityUid="StickCyl*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.38175440143059197 0.92426380270373587 0 -0.92426380270373587 -0.38175440143059197</Rotation>
+<Translation>0.0059527454765346058 3.0225913479483539 2.9975917031545167</Translation>
+</Transform>
+</Instance>
+<Instance name="StickLink-2" uid="StickLink-2" entityUid="StickLink*:*Default">
+<Transform>
+<Rotation>0.99999997329169399 -0.00023112033936972354 -1.9387974298928912e-15 5.5598959855085976e-05 0.24056281035183294 0.97063357204682732 -0.00022433316057464335 -0.97063354612284891 0.24056281677685826</Rotation>
+<Translation>-0.25204725428438352 6.3625913479497589 -1.6424082968452169</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_Primary_v2_PART-1</Uid>
+</InstancePath>
+<Position>0.13895272160825889 -0.017408652051657314 0.59759170315453036</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Boom-2</Uid>
+</InstancePath>
+<Position>0 0 0.34000002386827394</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Boom-2</Uid>
+</InstancePath>
+<Position>-1.6789308393457405 1.4158767232166221 -0.16000000000000089</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis_Primary_v2_PART-1</Uid>
+</InstancePath>
+<Position>-0.13104727839174135 -0.017408652051657314 0.59759170315454946</Position>
+<Axis>-1 2.2204460492503131e-16 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_Primary_v2_PART-1</Uid>
+</InstancePath>
+<Position>-0.62104727839174179 0.88259134794832172 0.37259170315467466</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BoomCyl-2</Uid>
+</InstancePath>
+<Position>-0.050000000000000266 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BoomCyl-2</Uid>
+</InstancePath>
+<Position>0.050000000000000044 0.10000000000000064 9.9920072216264089e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis_Primary_v2_PART-1</Uid>
+</InstancePath>
+<Position>-0.37104727839174179 0.88259134794832172 0.37259170315467466</Position>
+<Axis>-1 2.2204460492503131e-16 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BoomCyl-3</Uid>
+</InstancePath>
+<Position>-0.050000000000000266 4.9960036108132044e-16 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis_Primary_v2_PART-1</Uid>
+</InstancePath>
+<Position>0.37895272160835103 0.88259134794832172 0.37259170315466072</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_Primary_v2_PART-1</Uid>
+</InstancePath>
+<Position>0.37895272160835103 0.88259134794832172 0.37259170315466</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BoomCyl-3</Uid>
+</InstancePath>
+<Position>-0.050000000000000266 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Boom-2</Uid>
+</InstancePath>
+<Position>2.716291144388653 1.9727060052979475 0.34000002386827394</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BoomPiston-2</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Boom-2</Uid>
+</InstancePath>
+<Position>2.716291144388653 1.972706005297947 -0.53999999999999981</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BoomPiston-3</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BoomCyl-3</Uid>
+</InstancePath>
+<Position>4.9016346537200661e-14 -1.1102230246251565e-16 1.8000000000000003</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BoomPiston-2</Uid>
+</InstancePath>
+<Position>4.8905324234738146e-14 7.7715611723760958e-16 -2.0500000000000105</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BoomCyl-2</Uid>
+</InstancePath>
+<Position>4.9016346537200661e-14 0 1.8000000000000005</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BoomPiston-3</Uid>
+</InstancePath>
+<Position>4.8905324234738146e-14 4.4408920985006262e-16 -2.0500000000000105</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Boom-2</Uid>
+</InstancePath>
+<Position>3.0400000000000031 2.3999999999999968 0.092000023868274231</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StickCyl-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StickCyl-1</Uid>
+</InstancePath>
+<Position>0.049999999999999933 0 0.074999999999999512</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Boom-2</Uid>
+</InstancePath>
+<Position>3.0400000000000031 2.3999999999999968 0.092000023868274231</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Boom-2</Uid>
+</InstancePath>
+<Position>6.2400000000000029 1.1102230246251565e-16 0.16000002386827353</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Stick-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.33999999999999991</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Stick-1</Uid>
+</InstancePath>
+<Position>-9.7699626167013776e-15 2.8799999999999981 0.13999999976158156</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Boom-2</Uid>
+</InstancePath>
+<Position>3.8822051659063752 -2.7635068479317186 0.16000002386827428</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Stick-1</Uid>
+</InstancePath>
+<Position>-0.63524146574299145 -0.81590646976164394 0.13999999976158159</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StickPiston-1</Uid>
+</InstancePath>
+<Position>-0.049999999999999989 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StickCyl-1</Uid>
+</InstancePath>
+<Position>4.8905324234738146e-14 -4.4408920985006262e-16 2.6000000000000005</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StickPiston-1</Uid>
+</InstancePath>
+<Position>4.8960835385969403e-14 0 -2.4000000000000101</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StickLink-1</Uid>
+</InstancePath>
+<Position>-0.04999999866524904 1.1556017550429232e-05 -1.7932322293745528e-12</Position>
+<Axis>0.99999997329169399 -0.00023112033936919783 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StickLink-2</Uid>
+</InstancePath>
+<Position>-0.049999998665249124 1.1556017549985143e-05 -1.794120407794253e-12</Position>
+<Axis>0.99999997329169399 -0.00023112033936919783 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Stick-1</Uid>
+</InstancePath>
+<Position>-0.14000000000000501 2.2399999999999984 0.36599999999999988</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StickLink-2</Uid>
+</InstancePath>
+<Position>-0.049999998665249124 1.1556017549985143e-05 -1.794120407794253e-12</Position>
+<Axis>0.99999997329169399 -0.00023112033936919783 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Stick-1</Uid>
+</InstancePath>
+<Position>-0.14000000000000501 2.239999999999998 -0.36599999999999983</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StickLink-2</Uid>
+</InstancePath>
+<Position>-0.049791344330995413 0.90280673730824867 -1.794120407794253e-12</Position>
+<Axis>-0.99999997329169399 0.00023112033936919786 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Stick-1</Uid>
+</InstancePath>
+<Position>-0.14000000000000501 2.3149999999999986 0.36599999999999988</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StickLink-1</Uid>
+</InstancePath>
+<Position>0.050208652998174674 0.90278362527431177 -1.794120407794253e-12</Position>
+<Axis>0.99999997329169399 -0.00023112033936919786 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StickLink-1</Uid>
+</InstancePath>
+<Position>-0.049791344330995357 0.90280673730824823 -1.7932322293745528e-12</Position>
+<Axis>0.99999997329169399 -0.00023112033936919783 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StickLink-2</Uid>
+</InstancePath>
+<Position>-0.049791344330995413 0.90280673730824867 -1.794120407794253e-12</Position>
+<Axis>0.99999997329169399 -0.00023112033936919783 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Stick-1</Uid>
+</InstancePath>
+<Position>-0.84358422069456385 0.16686199068698726 0.13999999976158159</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BucketCyl-2</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BucketCyl-2</Uid>
+</InstancePath>
+<Position>0.049999999999999933 0 0.074999999999999512</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Stick-1</Uid>
+</InstancePath>
+<Position>-9.7699626167013776e-15 2.8799999999999981 0.059999999999999991</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bucket-2</Uid>
+</InstancePath>
+<Position>-0.10400000000000187 -0.67606399999999889 0.19419999999999957</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BucketLink-2</Uid>
+</InstancePath>
+<Position>0.37103863008587934 3.1974423109204508e-14 -0.71562592711000317</Position>
+<Axis>-0.99999999991401822 -8.1150464334104358e-14 1.3113489212545324e-05</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BucketLink-2</Uid>
+</InstancePath>
+<Position>0.37103875201758335 0.074518656030430286 -0.70714241937979105</Position>
+<Axis>0.99999999991401822 8.1150464334104358e-14 -1.3113489212545324e-05</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bucket-2</Uid>
+</InstancePath>
+<Position>0 0 0.37019999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>StickLink-1</Uid>
+</InstancePath>
+<Position>-0.049791344330995357 0.90280673730824823 -1.7932322293745528e-12</Position>
+<Axis>0.99999997329169399 -0.00023112033936919783 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BucketLink-2</Uid>
+</InstancePath>
+<Position>0.37104801437449808 3.1086244689504383e-14 -4.8657341356062034e-06</Position>
+<Axis>-0.99999999991401822 -8.1150763199866362e-14 1.3113489212545292e-05</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Stick-1</Uid>
+</InstancePath>
+<Position>0.009142514891532727 2.979581195119648 0.14000000000000015</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bucket-2</Uid>
+</InstancePath>
+<Position>0 0 0.19419999999999957</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bucket-2</Uid>
+</InstancePath>
+<Position>0 0 0.37019999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Stick-1</Uid>
+</InstancePath>
+<Position>0.009142514891532727 2.979581195119648 0.38999999999999979</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BucketLink-2</Uid>
+</InstancePath>
+<Position>0.061848025037009979 3.9701575360595598e-13 -8.1104336580040126e-07</Position>
+<Axis>-0.99999999991401822 -5.9494241166995841e-12 1.3113488545221991e-05</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BucketPiston-2</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BucketCyl-2</Uid>
+</InstancePath>
+<Position>4.8904456873000157e-14 8.8817841970012523e-16 1.6000000000000001</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BucketPiston-2</Uid>
+</InstancePath>
+<Position>4.8906191596476134e-14 1.7763568394002505e-15 -1.5000000000000104</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Boom" uid="Boom*:*Default" version="575">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Boom.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7226.5142576738817</Mass>
+<CenterOfMass>2.9663358886026359 1.1842172305072969 1.1929059631186252e-08</CenterOfMass>
+<Inertia>3017.4783752430235 19647.782814715865 22079.174302614123 1.08808126269373e-08 1.931762803927492e-10 1247.0083877576544</Inertia>
+</MassProperties>
+<GeometryFile name="Boom_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.52705882352941169" g="0.52705882352941169" b="0.52705882352941169" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BoomCyl" uid="BoomCyl*:*Default" version="201">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BoomCyl.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>329.35537598643623</Mass>
+<CenterOfMass>4.5316448629225017e-14 0 0.85675204234045155</CenterOfMass>
+<Inertia>97.093806615386924 97.010841060741626 2.7597462958665742 2.1220123925377084e-14 -9.0344935760755655e-13 -5.4634506239429135e-16</Inertia>
+</MassProperties>
+<GeometryFile name="BoomCyl_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Diffuse r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Specular r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BoomPiston" uid="BoomPiston*:*Default" version="192">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BoomPiston.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>285.01546126485562</Mass>
+<CenterOfMass>4.3418247733704848e-14 0 -0.9800957629494319</CenterOfMass>
+<Inertia>107.57967071792119 107.47984995021297 0.8295754669239942 3.8778330203769024e-14 1.4308857134959858e-12 5.6290190438513399e-16</Inertia>
+</MassProperties>
+<GeometryFile name="BoomPiston_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Specular r="0.62862745098039219" g="0.62862745098039219" b="0.62862745098039219" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bucket" uid="Bucket*:*Default" version="406">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bucket.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5119.5105776846567</Mass>
+<CenterOfMass>-1.0269979366795368 -0.24527327299118057 0.0050000000068449423</CenterOfMass>
+<Inertia>2016.2992853651699 2725.302051967722 3257.0034496531603 -1.6309303204621565e-08 -1.0540823248617357e-08 638.20754099348835</Inertia>
+</MassProperties>
+<GeometryFile name="Bucket_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.52705882352941169" g="0.52705882352941169" b="0.52705882352941169" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BucketCyl" uid="BucketCyl*:*Default" version="200">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BucketCyl.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>290.17292904357652</Mass>
+<CenterOfMass>-5.6090046782344409e-08 -9.3104135190609715e-08 0.7679139728425034</CenterOfMass>
+<Inertia>67.262695023276322 67.149642117356336 2.3678749004288568 -1.1830446422028811e-05 -7.1274152165819454e-06 3.2060990638545472e-07</Inertia>
+</MassProperties>
+<GeometryFile name="BucketCyl_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Diffuse r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Specular r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BucketLink" uid="BucketLink*:*Default" version="450">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BucketLink.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>665.67230370076118</Mass>
+<CenterOfMass>0.0018430729227465173 1.6461563981668162e-14 -0.37763918446819594</CenterOfMass>
+<Inertia>54.139805332821417 65.097600240082826 16.768828280510625 1.2543740379486146e-13 -0.0004900638744374465 -6.3896534926283505e-13</Inertia>
+</MassProperties>
+<GeometryFile name="BucketLink_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BucketPiston" uid="BucketPiston*:*Default" version="185">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BucketPiston.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>212.11305917263405</Mass>
+<CenterOfMass>4.1534718019941574e-14 5.9989854358530134e-16 -0.70689038587216568</CenterOfMass>
+<Inertia>43.748714727130164 43.648893959421933 0.63797884142537442 3.2157657713520881e-14 1.003248222966616e-12 0</Inertia>
+</MassProperties>
+<GeometryFile name="BucketPiston_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Specular r="0.62862745098039219" g="0.62862745098039219" b="0.62862745098039219" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Chassis_Primary_v2_PART" uid="Chassis_Primary_v2_PART*:*Default" version="270">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chassis_Primary_v2_PART.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>17596.155153494285</Mass>
+<CenterOfMass>1.939386284019488 -2.9973118227353224 0.30407741842537533</CenterOfMass>
+<Inertia>52919.302398880296 27049.968161105171 69868.517372577946 718.94741530071587 819.76837835123092 2701.1357887200061</Inertia>
+</MassProperties>
+<GeometryFile name="Chassis_Primary_v2_PART_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ExcavatorBase" uid="ExcavatorBase*:*Default" version="363">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ExcavatorBase.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>139411.73317667851</Mass>
+<CenterOfMass>0 -1.2057995614293515 -0.75581043664964165</CenterOfMass>
+<Inertia>390840.53573349118 391481.85338821623 759007.34593037039 -3915.9440974170147 1.9950549076773263e-11 1.5637531467088897e-10</Inertia>
+</MassProperties>
+<GeometryFile name="ExcavatorBase_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Stick" uid="Stick*:*Default" version="305">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Stick.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3327.8897231862375</Mass>
+<CenterOfMass>-0.19062305279933381 1.0723371307864227 -2.3376899899683356e-10</CenterOfMass>
+<Inertia>3546.5067377903483 257.34272961225878 3745.7299246760745 -4.6603280425137351e-08 -1.2763497132420306e-08 -450.04562601076748</Inertia>
+</MassProperties>
+<GeometryFile name="Stick_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.52705882352941169" g="0.52705882352941169" b="0.52705882352941169" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="StickCyl" uid="StickCyl*:*Default" version="194">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="StickCyl.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>462.13232692351238</Mass>
+<CenterOfMass>-1.0447591845270157e-07 -1.0360158422078103e-07 1.2708296717842853</CenterOfMass>
+<Inertia>272.16238778219724 272.00520020829259 3.8398058487108133 -3.6043508328191857e-05 -3.6347913734412192e-05 -6.7772689775356407e-07</Inertia>
+</MassProperties>
+<GeometryFile name="StickCyl_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Diffuse r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Specular r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="StickLink" uid="StickLink*:*Default" version="182">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="StickLink.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>172.94459547518412</Mass>
+<CenterOfMass>0.00010490304971690789 0.45388929362775665 -1.8094769151275407e-12</CenterOfMass>
+<Inertia>15.336503159085552 1.0318330592342386 14.592912620524123 -8.1306811887440002e-13 6.9428211788426206e-16 -0.0033061004729379611</Inertia>
+</MassProperties>
+<GeometryFile name="StickLink_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="StickPiston" uid="StickPiston*:*Default" version="185">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="StickPiston.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>333.23499955149589</Mass>
+<CenterOfMass>4.1922741138273494e-14 0 -1.150497141052131</CenterOfMass>
+<Inertia>170.80335177945145 170.66523103222144 0.97694626433331544 5.2001093294367206e-14 2.422729163009862e-12 6.3809976111696295e-16</Inertia>
+</MassProperties>
+<GeometryFile name="StickPiston_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Specular r="0.62862745098039219" g="0.62862745098039219" b="0.62862745098039219" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

@@ -1,0 +1,349 @@
+<DatasmithUnrealScene>
+	<Version>0.24</Version>
+	<SDKVersion>5.1.1-23901901</SDKVersion>
+	<Host>StdMaterial</Host>
+	<Application Vendor="Solidworks" ProductName="Solidworks" ProductVersion=""/>
+	<ResourcePath>C:/Projekte_Local/UnrealProjects/AutonomousConstructionSite/ExcavatorCADFiles/Datasmith_MathScavator9000_flat</ResourcePath>
+	<User ID="3d293b1b42e557e87a86c7b07eb1fde3" OS="Windows 11 (22H2) [10.0.22621.3007]"/>
+	<StaticMesh name="BoomCyl-3_Mesh" label="BoomCyl-3_Mesh">
+		<file path="MathScavator9000_flat_Assets/BoomCyl-3_Mesh.udsmesh"/>
+		<Size a="21242.201172" x="22.36068" y="22.338163" z="189.957336"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="7bab96c06cdfe2c356e6374c61d5641b"/>
+		<Material id="45162869" name="machined_steel_45162869_"/>
+		<Material id="100387041" name="dark_powdercoat_100387041_"/>
+	</StaticMesh>
+	<StaticMesh name="StickLink-1_Mesh" label="StickLink-1_Mesh">
+		<file path="MathScavator9000_flat_Assets/StickLink-1_Mesh.udsmesh"/>
+		<Size a="8150.12793" x="10.026397" y="114.214714" z="24.0"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="f68f2c9c9d172c860cffd46f18830041"/>
+		<Material id="3430268" name="cast_carbon_steel_3430268_"/>
+	</StaticMesh>
+	<StaticMesh name="StickCyl-1_Mesh" label="StickCyl-1_Mesh">
+		<file path="MathScavator9000_flat_Assets/StickCyl-1_Mesh.udsmesh"/>
+		<Size a="29945.898438" x="22.310055" y="22.335352" z="270.0"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="cb8463c28e45cd14ac48b407fb1bbfc8"/>
+		<Material id="100387041" name="dark_powdercoat_100387041_"/>
+		<Material id="45162869" name="machined_steel_45162869_"/>
+	</StaticMesh>
+	<StaticMesh name="StickLink-2_Mesh" label="StickLink-2_Mesh">
+		<file path="MathScavator9000_flat_Assets/StickLink-2_Mesh.udsmesh"/>
+		<Size a="8150.12793" x="10.026397" y="114.214714" z="24.0"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="f8c0cbb3d657a01c845d4b305899d7f3"/>
+		<Material id="3430268" name="cast_carbon_steel_3430268_"/>
+	</StaticMesh>
+	<StaticMesh name="BoomCyl-2_Mesh" label="BoomCyl-2_Mesh">
+		<file path="MathScavator9000_flat_Assets/BoomCyl-2_Mesh.udsmesh"/>
+		<Size a="21242.201172" x="22.36068" y="22.338163" z="189.957336"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="4acfcd820c62e0f3aa2d55d15326b50b"/>
+		<Material id="45162869" name="machined_steel_45162869_"/>
+		<Material id="100387041" name="dark_powdercoat_100387041_"/>
+	</StaticMesh>
+	<StaticMesh name="BoomPiston-3_Mesh" label="BoomPiston-3_Mesh">
+		<file path="MathScavator9000_flat_Assets/BoomPiston-3_Mesh.udsmesh"/>
+		<Size a="10768.27832" x="16.276533" y="20.0" z="214.957336"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="cf978e6fc83cd55e7d03df261ca9dc8d"/>
+		<Material id="462429687" name="sandblasted_chrome_462429687_"/>
+		<Material id="919687681" name="chromium_plate_919687681_"/>
+	</StaticMesh>
+	<StaticMesh name="BucketLink-2_Mesh" label="BucketLink-2_Mesh">
+		<file path="MathScavator9000_flat_Assets/BucketLink-2_Mesh.udsmesh"/>
+		<Size a="17205.121094" x="73.841141" y="25.124401" z="96.549316"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="672459bab3a32d9d5d6ee7fb832953c4"/>
+		<Material id="817179148" name="whitesolid_817179148_"/>
+	</StaticMesh>
+	<StaticMesh name="ExcavatorBase-1_Mesh" label="ExcavatorBase-1_Mesh">
+		<file path="MathScavator9000_flat_Assets/ExcavatorBase-1_Mesh.udsmesh"/>
+		<Size a="809192.4375" x="480.000031" y="643.919373" z="129.5"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="736da4c829ddb182ede7b4845e481620"/>
+		<Material id="1225321987" name="black_1225321987_"/>
+	</StaticMesh>
+	<StaticMesh name="Boom-2_Mesh" label="Boom-2_Mesh">
+		<file path="MathScavator9000_flat_Assets/Boom-2_Mesh.udsmesh"/>
+		<Size a="221801.953125" x="108.0" y="677.516541" z="283.289215"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="77cb930f5c6122ab3107c41712570114"/>
+		<Material id="506037660" name="wrought_steel_506037660_"/>
+	</StaticMesh>
+	<StaticMesh name="Chassis_Primary_v2_PART-1_Mesh" label="Chassis_Primary_v2_PART-1_Mesh">
+		<file path="MathScavator9000_flat_Assets/Chassis_Primary_v2_PART-1_Mesh.udsmesh"/>
+		<Size a="7038389.5" x="398.376678" y="728.65686" z="254.341827"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="75ccc64b53c067d8576a290ce9eb15e0"/>
+		<Material id="1367126577" name="yellow_paint_1367126577_"/>
+		<Material id="662896928" name="red_high_gloss_plastic_662896928_"/>
+		<Material id="2083396592" name="color_2083396592_"/>
+		<Material id="1736473970" name="sandblasted_steel_1736473970_"/>
+		<Material id="1073085890" name="white_led_1073085890_"/>
+		<Material id="383129937" name="steel_grey_383129937_"/>
+		<Material id="1225321987" name="black_1225321987_"/>
+		<Material id="353214163" name="candy_apple_red_353214163_"/>
+		<Material id="1551752681" name="color_1551752681_"/>
+	</StaticMesh>
+	<StaticMesh name="BucketCyl-2_Mesh" label="BucketCyl-2_Mesh">
+		<file path="MathScavator9000_flat_Assets/BucketCyl-2_Mesh.udsmesh"/>
+		<Size a="18864.449219" x="22.36068" y="22.36068" z="169.957336"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="82f579f88fa5f9e4af2ef4a332a726cb"/>
+		<Material id="100387041" name="dark_powdercoat_100387041_"/>
+		<Material id="45162869" name="machined_steel_45162869_"/>
+	</StaticMesh>
+	<StaticMesh name="StickPiston-1_Mesh" label="StickPiston-1_Mesh">
+		<file path="MathScavator9000_flat_Assets/StickPiston-1_Mesh.udsmesh"/>
+		<Size a="12482.915039" x="16.276533" y="20.0" z="249.957352"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="2e65f639eb7f3cd846fbbd75ff6c38d7"/>
+		<Material id="45162869" name="machined_steel_45162869_"/>
+		<Material id="919687681" name="chromium_plate_919687681_"/>
+	</StaticMesh>
+	<StaticMesh name="Bucket-2_Mesh" label="Bucket-2_Mesh">
+		<file path="MathScavator9000_flat_Assets/Bucket-2_Mesh.udsmesh"/>
+		<Size a="173072.953125" x="114.800003" y="195.948288" z="221.877533"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="fd85d80732b9af651038b7be3a45a728"/>
+		<Material id="506037660" name="wrought_steel_506037660_"/>
+		<Material id="1736473970" name="sandblasted_steel_1736473970_"/>
+	</StaticMesh>
+	<StaticMesh name="BoomPiston-2_Mesh" label="BoomPiston-2_Mesh">
+		<file path="MathScavator9000_flat_Assets/BoomPiston-2_Mesh.udsmesh"/>
+		<Size a="10768.27832" x="16.276533" y="20.0" z="214.957336"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="c85ae5c2d095fec3ca27679602232193"/>
+		<Material id="462429687" name="sandblasted_chrome_462429687_"/>
+		<Material id="919687681" name="chromium_plate_919687681_"/>
+	</StaticMesh>
+	<StaticMesh name="BucketPiston-2_Mesh" label="BucketPiston-2_Mesh">
+		<file path="MathScavator9000_flat_Assets/BucketPiston-2_Mesh.udsmesh"/>
+		<Size a="8269.573242" x="16.36068" y="20.0" z="160.0"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="3f919a9e2b7b9f7b0cd02cf09554d9f4"/>
+		<Material id="45162869" name="machined_steel_45162869_"/>
+		<Material id="919687681" name="chromium_plate_919687681_"/>
+	</StaticMesh>
+	<StaticMesh name="Stick-1_Mesh" label="Stick-1_Mesh">
+		<file path="MathScavator9000_flat_Assets/Stick-1_Mesh.udsmesh"/>
+		<Size a="92723.179688" x="78.0" y="121.009483" z="408.972046"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="a3e972b048b414df7e7de7a88c8a78c9"/>
+		<Material id="506037660" name="wrought_steel_506037660_"/>
+	</StaticMesh>
+	<Actor name="MathScavator9000_flat" label="MathScavator9000_flat">
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="1.0" sy="1.0" sz="1.0" qx="-0.707107" qy="0.0" qz="0.0" qw="0.707107" qhex64="F941CB6E9EA0E6BF000000000000000000000000000000809F35335E9EA0E63F"/>
+		<tag value="MathScavator9000_flat" />
+		<children visible="true">
+			<ActorMesh name="BucketLink-2" label="BucketLink-2">
+				<mesh name="BucketLink-2_Mesh"/>
+				<Transform tx="0.190472" ty="-251.869125" tz="657.97699" sx="1.0" sy="1.0" sz="1.0" qx="-0.413992" qy="-0.000006" qz="0.000003" qw="0.910281" qhex64="C8836A09D87EDABF0AE4F1849A08D9BED7599BC036C5C63E315202AC0421ED3F"/>
+				<tag value="BucketLink-2" />
+			</ActorMesh>
+			<ActorMesh name="BucketPiston-2" label="BucketPiston-2">
+				<mesh name="BucketPiston-2_Mesh"/>
+				<Transform tx="0.395275" ty="-251.869125" tz="657.97699" sx="1.0" sy="1.0" sz="1.0" qx="0.762469" qy="-0.0" qz="0.0" qw="0.647025" qhex64="76F6211F2566E83F8133C4D868D9C5BC0D4AEE459AF0C63C8633CB8E6DB4E43F"/>
+				<tag value="BucketPiston-2" />
+			</ActorMesh>
+			<ActorMesh name="BucketCyl-2" label="BucketCyl-2">
+				<mesh name="BucketCyl-2_Mesh"/>
+				<Transform tx="0.395275" ty="43.073002" tz="706.617554" sx="1.0" sy="1.0" sz="1.0" qx="0.762469" qy="-0.0" qz="-0.0" qw="0.647025" qhex64="76F6211F2566E83F9C6C62118B66A6BC3CA232938D9923BC8633CB8E6DB4E43F"/>
+				<tag value="BucketCyl-2" />
+			</ActorMesh>
+			<ActorMesh name="BoomCyl-3" label="BoomCyl-3">
+				<mesh name="BoomCyl-3_Mesh"/>
+				<Transform tx="45.395271" ty="37.259174" tz="88.25914" sx="1.0" sy="1.0" sz="1.0" qx="-0.426001" qy="0.0" qz="0.0" qw="0.904723" qhex64="8123E6AA9743DBBF000000000000000000000000000000809792BB7A7DF3EC3F"/>
+				<tag value="BoomCyl-3" />
+			</ActorMesh>
+			<ActorMesh name="Stick-1" label="Stick-1">
+				<mesh name="Stick-1_Mesh"/>
+				<Transform tx="0.395275" ty="59.759197" tz="622.259155" sx="1.0" sy="1.0" sz="1.0" qx="-0.707107" qy="0.0" qz="0.0" qw="0.707107" qhex64="F941CB6E9EA0E6BF000000000000000000000000000000809F35335E9EA0E63F"/>
+				<tag value="Stick-1" />
+			</ActorMesh>
+			<ActorMesh name="StickCyl-1" label="StickCyl-1">
+				<mesh name="StickCyl-1_Mesh"/>
+				<Transform tx="0.595275" ty="299.759186" tz="302.259125" sx="1.0" sy="1.0" sz="1.0" qx="0.194597" qy="0.0" qz="-0.0" qw="0.980883" qhex64="DE38A32890E8C83F151985039274943914DF9603EAA5A5B9B2AAAF386563EF3F"/>
+				<tag value="StickCyl-1" />
+			</ActorMesh>
+			<ActorMesh name="Boom-2" label="Boom-2">
+				<mesh name="Boom-2_Mesh"/>
+				<Transform tx="9.395272" ty="50.759171" tz="-1.740867" sx="1.0" sy="1.0" sz="1.0" qx="-0.707107" qy="0.0" qz="0.0" qw="0.707107" qhex64="F941CB6E9EA0E6BF000000000000000000000000000000809F35335E9EA0E63F"/>
+				<tag value="Boom-2" />
+			</ActorMesh>
+			<ActorMesh name="StickLink-1" label="StickLink-1">
+				<mesh name="StickLink-1_Mesh"/>
+				<Transform tx="25.995275" ty="-164.240799" tz="636.259155" sx="1.0" sy="1.0" sz="1.0" qx="-0.121174" qy="-0.000014" qz="-0.000115" qw="0.992631" qhex64="F635B5ED4705BFBF6C167FBFC35DEDBECE471445F7111EBF64944094A2C3EF3F"/>
+				<tag value="StickLink-1" />
+			</ActorMesh>
+			<ActorMesh name="StickLink-2" label="StickLink-2">
+				<mesh name="StickLink-2_Mesh"/>
+				<Transform tx="-25.204723" ty="-164.240799" tz="636.259155" sx="1.0" sy="1.0" sz="1.0" qx="-0.121174" qy="-0.000014" qz="-0.000115" qw="0.992631" qhex64="F635B5ED4705BFBF6C167FBFC35DEDBECE471445F7111EBF64944094A2C3EF3F"/>
+				<tag value="StickLink-2" />
+			</ActorMesh>
+			<ActorMesh name="StickPiston-1" label="StickPiston-1">
+				<mesh name="StickPiston-1_Mesh"/>
+				<Transform tx="0.595275" ty="141.349854" tz="685.783264" sx="1.0" sy="1.0" sz="1.0" qx="0.194597" qy="-0.0" qz="-0.0" qw="0.980883" qhex64="DE38A32890E8C83F768CE9C24B2593BCA4DEC1892E1E95BCB2AAAF386563EF3F"/>
+				<tag value="StickPiston-1" />
+			</ActorMesh>
+			<ActorMesh name="Bucket-2" label="Bucket-2">
+				<mesh name="Bucket-2_Mesh"/>
+				<Transform tx="-0.124725" ty="-238.198914" tz="621.34491" sx="1.0" sy="1.0" sz="1.0" qx="-0.707107" qy="0.0" qz="0.0" qw="0.707107" qhex64="F941CB6E9EA0E6BF000000000000000000000000000000809F35335E9EA0E63F"/>
+				<tag value="Bucket-2" />
+			</ActorMesh>
+			<ActorMesh name="ExcavatorBase-1" label="ExcavatorBase-1">
+				<mesh name="ExcavatorBase-1_Mesh"/>
+				<Transform tx="0.0" ty="0.0" tz="0.0" sx="1.0" sy="1.0" sz="1.0" qx="-0.707107" qy="0.0" qz="0.0" qw="0.707107" qhex64="F941CB6E9EA0E6BF000000000000000000000000000000809F35335E9EA0E63F"/>
+				<tag value="ExcavatorBase-1" />
+			</ActorMesh>
+			<ActorMesh name="BoomCyl-2" label="BoomCyl-2">
+				<mesh name="BoomCyl-2_Mesh"/>
+				<Transform tx="-44.604729" ty="37.259174" tz="88.25914" sx="1.0" sy="1.0" sz="1.0" qx="-0.426001" qy="0.0" qz="0.0" qw="0.904723" qhex64="8123E6AA9743DBBF000000000000000000000000000000809792BB7A7DF3EC3F"/>
+				<tag value="BoomCyl-2" />
+			</ActorMesh>
+			<ActorMesh name="BoomPiston-2" label="BoomPiston-2">
+				<mesh name="BoomPiston-2_Mesh"/>
+				<Transform tx="45.395271" ty="257.029785" tz="269.888245" sx="1.0" sy="1.0" sz="1.0" qx="-0.426001" qy="-0.0" qz="-0.0" qw="0.904723" qhex64="8123E6AA9743DBBF808F0CED3F4EBAB9D3AF9F54565CC1B99792BB7A7DF3EC3F"/>
+				<tag value="BoomPiston-2" />
+			</ActorMesh>
+			<ActorMesh name="Chassis_Primary_v2_PART-1" label="Chassis_Primary_v2_PART-1">
+				<mesh name="Chassis_Primary_v2_PART-1_Mesh"/>
+				<Transform tx="0.0" ty="0.0" tz="0.0" sx="1.0" sy="1.0" sz="1.0" qx="-0.707107" qy="0.0" qz="0.0" qw="0.707107" qhex64="F941CB6E9EA0E6BF000000000000000000000000000000809F35335E9EA0E63F"/>
+				<tag value="Chassis_Primary_v2_PART-1" />
+			</ActorMesh>
+			<ActorMesh name="BoomPiston-3" label="BoomPiston-3">
+				<mesh name="BoomPiston-3_Mesh"/>
+				<Transform tx="-44.604729" ty="257.029785" tz="269.888245" sx="1.0" sy="1.0" sz="1.0" qx="-0.426001" qy="0.0" qz="-0.0" qw="0.904723" qhex64="8123E6AA9743DBBF8DD0C0454EF2B639EAEDA120B219A0B99792BB7A7DF3EC3F"/>
+				<tag value="BoomPiston-3" />
+			</ActorMesh>
+		</children>
+	</Actor>
+	<Texture name="powdercoat_n" label="powdercoat_n" texturemode="2" texturefilter="3" textureaddressx="0" textureaddressy="0" rgbcurve="1.000000" srgb="0" file="MathScavator9000_flat_Assets/powdercoat_n.dds">
+		<Hash value="2898fedac907941219a8dc33a756abcd"/>
+	</Texture>
+	<Texture name="sandblasted" label="sandblasted" texturemode="2" texturefilter="3" textureaddressx="0" textureaddressy="0" rgbcurve="1.000000" srgb="0" file="MathScavator9000_flat_Assets/sandblasted.dds">
+		<Hash value="42f480405774c88dcb8c8f6f5006e615"/>
+	</Texture>
+	<Texture name="sandblasted" label="sandblasted" texturemode="2" texturefilter="3" textureaddressx="0" textureaddressy="0" rgbcurve="1.000000" srgb="0" file="MathScavator9000_flat_Assets/sandblasted.dds">
+		<Hash value="42f480405774c88dcb8c8f6f5006e615"/>
+	</Texture>
+	<Texture name="dented_n" label="dented_n" texturemode="2" texturefilter="3" textureaddressx="0" textureaddressy="0" rgbcurve="1.000000" srgb="0" file="MathScavator9000_flat_Assets/dented_n.dds">
+		<Hash value="6dcd55b0d545eef7c5d9bcaacb74707a"/>
+	</Texture>
+	<Texture name="cast" label="cast" texturemode="2" texturefilter="3" textureaddressx="0" textureaddressy="0" rgbcurve="1.000000" srgb="0" file="MathScavator9000_flat_Assets/cast.dds">
+		<Hash value="5b68fe46fca3d5ad9a4dfbcca297f0fd"/>
+	</Texture>
+	<Texture name="cast" label="cast" texturemode="2" texturefilter="3" textureaddressx="0" textureaddressy="0" rgbcurve="1.000000" srgb="0" file="MathScavator9000_flat_Assets/cast.dds">
+		<Hash value="5b68fe46fca3d5ad9a4dfbcca297f0fd"/>
+	</Texture>
+	<Texture name="CopperWrought_normalmap" label="CopperWrought_normalmap" texturemode="2" texturefilter="3" textureaddressx="0" textureaddressy="0" rgbcurve="1.000000" srgb="0" file="MathScavator9000_flat_Assets/CopperWrought_normalmap.dds">
+		<Hash value="364d784688e48d5799722daf3f3432f2"/>
+	</Texture>
+	<MaterialInstance name="candy_apple_red_353214163_"  label="candy_apple_red_353214163_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=1.000000,G=0.000000,B=0.000000,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.650000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.700000"/>
+	</MaterialInstance>
+	<MaterialInstance name="whitesolid_817179148_"  label="whitesolid_817179148_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+	</MaterialInstance>
+	<MaterialInstance name="chromium_plate_919687681_"  label="chromium_plate_919687681_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.639216,G=0.666667,B=0.678431,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.060000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="1.000000"/>
+	</MaterialInstance>
+	<MaterialInstance name="color_2083396592_"  label="color_2083396592_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.792157,G=0.819608,B=0.933333,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.170000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+	</MaterialInstance>
+	<MaterialInstance name="black_1225321987_"  label="black_1225321987_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.019608,G=0.019608,B=0.019608,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.130000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+	</MaterialInstance>
+	<MaterialInstance name="red_high_gloss_plastic_662896928_"  label="red_high_gloss_plastic_662896928_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.694118,G=0.098039,B=0.098039,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.170000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+	</MaterialInstance>
+	<MaterialInstance name="steel_grey_383129937_"  label="steel_grey_383129937_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.501961,G=0.501961,B=0.501961,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.130000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+	</MaterialInstance>
+	<MaterialInstance name="color_1551752681_"  label="color_1551752681_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.501961,G=0.000000,B=0.000000,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.170000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+	</MaterialInstance>
+	<MaterialInstance name="yellow_paint_1367126577_"  label="yellow_paint_1367126577_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.003200"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+	</MaterialInstance>
+	<MaterialInstance name="sandblasted_steel_1736473970_"  label="sandblasted_steel_1736473970_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.647059,G=0.619608,B=0.588235,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.650000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="NormalMap" type="Texture" val="sandblasted"/>
+	</MaterialInstance>
+	<MaterialInstance name="machined_steel_45162869_"  label="machined_steel_45162869_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.647059,G=0.619608,B=0.588235,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.900000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="NormalMap" type="Texture" val="dented_n"/>
+	</MaterialInstance>
+	<MaterialInstance name="dark_powdercoat_100387041_"  label="dark_powdercoat_100387041_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.192157,G=0.203922,B=0.203922,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+		<KeyValueProperty name="NormalMap" type="Texture" val="powdercoat_n"/>
+	</MaterialInstance>
+	<MaterialInstance name="sandblasted_chrome_462429687_"  label="sandblasted_chrome_462429687_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.658824,G=0.658824,B=0.658824,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.650000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="NormalMap" type="Texture" val="sandblasted"/>
+	</MaterialInstance>
+	<MaterialInstance name="cast_carbon_steel_3430268_"  label="cast_carbon_steel_3430268_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.752941,G=0.752941,B=0.752941,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.700000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="NormalMap" type="Texture" val="cast"/>
+	</MaterialInstance>
+	<MaterialInstance name="wrought_steel_506037660_"  label="wrought_steel_506037660_" Type="1" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=0.501961,G=0.501961,B=0.501961,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="0.700000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="NormalMap" type="Texture" val="CopperWrought_normalmap"/>
+	</MaterialInstance>
+	<MaterialInstance name="white_led_1073085890_"  label="white_led_1073085890_" Type="6" Quality="0" >
+		<KeyValueProperty name="TintColor" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+		<KeyValueProperty name="RoughnessAmount" type="Float" val="1.000000"/>
+		<KeyValueProperty name="MetallicAmount" type="Float" val="0.000000"/>
+		<KeyValueProperty name="LuminanceAmount" type="Float" val="1.700000"/>
+		<KeyValueProperty name="LuminanceFilter" type="Color" val="(R=1.000000,G=1.000000,B=1.000000,A=1.000000)"/>
+	</MaterialInstance>
+	<Export Duration="0"/>
+</DatasmithUnrealScene>

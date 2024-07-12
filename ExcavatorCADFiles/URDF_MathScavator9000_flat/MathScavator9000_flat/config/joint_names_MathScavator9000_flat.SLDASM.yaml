@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'base_chassis_joint', 'chassis_boom_joint', 'boom_stick_joint', 'stick_bucket_joint', ]

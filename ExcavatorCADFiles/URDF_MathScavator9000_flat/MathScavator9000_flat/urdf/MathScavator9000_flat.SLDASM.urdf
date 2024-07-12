@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="MathScavator9000_flat.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-3.05023976636919E-16 -1.20579956142935 -0.755810436649642"
+        rpy="0 0 0" />
+      <mass
+        value="139411.733176679" />
+      <inertia
+        ixx="390840.535733491"
+        ixy="1.50663950062099E-10"
+        ixz="1.45611998268111E-11"
+        iyy="391481.853388216"
+        iyz="-3915.94409741702"
+        izz="759007.34593037" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MathScavator9000_flat.SLDASM/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MathScavator9000_flat.SLDASM/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="base_chassis_link">
+    <inertial>
+      <origin
+        xyz="-0.0572240980964203 -1.43061378500035 0.653734550513117"
+        rpy="0 0 0" />
+      <mass
+        value="17434.1065917836" />
+      <inertia
+        ixx="52076.3140370513"
+        ixy="2716.06120599586"
+        ixz="816.956173700325"
+        iyy="26944.2657197114"
+        iyz="606.221908596681"
+        izz="68968.3416230044" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MathScavator9000_flat.SLDASM/meshes/base_chassis_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MathScavator9000_flat.SLDASM/meshes/base_chassis_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_chassis_joint"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="base_chassis_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.1416"
+      upper="3.1416"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="chassis_boom_link">
+    <inertial>
+      <origin
+        xyz="0.0039527335373066 2.96633588860166 1.18421723050726"
+        rpy="0 0 0" />
+      <mass
+        value="7226.51425767388" />
+      <inertia
+        ixx="22079.1743026141"
+        ixy="1.98204188980526E-10"
+        ixz="1.08721982722814E-08"
+        iyy="3017.47837524302"
+        iyz="1247.0083877576"
+        izz="19647.7828147159" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MathScavator9000_flat.SLDASM/meshes/chassis_boom_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MathScavator9000_flat.SLDASM/meshes/chassis_boom_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_boom_joint"
+    type="revolute">
+    <origin
+      xyz="0 -0.017409 0.59759"
+      rpy="0 0 0" />
+    <parent
+      link="base_chassis_link" />
+    <child
+      link="chassis_boom_link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-0.5585"
+      upper="1.2415"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="boom_stick_link">
+    <inertial>
+      <origin
+        xyz="0.00395274548130705 0.190623052799124 -1.07233713079083"
+        rpy="0 0 0" />
+      <mass
+        value="3327.88972318624" />
+      <inertia
+        ixx="3745.72992467607"
+        ixy="1.27627827542214E-08"
+        ixz="4.66017295519215E-08"
+        iyy="3546.50673779034"
+        iyz="-450.045626010779"
+        izz="257.342729612262" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MathScavator9000_flat.SLDASM/meshes/boom_stick_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MathScavator9000_flat.SLDASM/meshes/boom_stick_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="boom_stick_joint"
+    type="revolute">
+    <origin
+      xyz="0 6.24 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_boom_link" />
+    <child
+      link="boom_stick_link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-0.8179"
+      upper="1.0821"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="stick_bucket_link">
+    <inertial>
+      <origin
+        xyz="0.00375274572184522 -1.02699793667954 -0.245273272991185"
+        rpy="0 0 0" />
+      <mass
+        value="5119.51057768466" />
+      <inertia
+        ixx="3257.00344965316"
+        ixy="-1.05357918855887E-08"
+        ixz="-1.6312605612954E-08"
+        iyy="2016.29928536516"
+        iyz="638.207540993486"
+        izz="2725.30205196773" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MathScavator9000_flat.SLDASM/meshes/stick_bucket_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://MathScavator9000_flat.SLDASM/meshes/stick_bucket_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="stick_bucket_joint"
+    type="revolute">
+    <origin
+      xyz="0 -0.0091425 -2.9796"
+      rpy="0 0 0" />
+    <parent
+      link="boom_stick_link" />
+    <child
+      link="stick_bucket_link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-2.2689"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

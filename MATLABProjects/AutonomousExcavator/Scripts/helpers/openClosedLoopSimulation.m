@@ -1,0 +1,2 @@
+run("initScenario_followPlannedTrajectory_MechanicsOnly.m")
+open_system("followPlannedTrajectory_MechanicsOnly.slx")

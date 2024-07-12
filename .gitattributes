@@ -1,0 +1,7 @@
+# Raw Content file types.
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.ucas filter=lfs diff=lfs merge=lfs -text
+*.sldpart filter=lfs diff=lfs merge=lfs -text
+*.sldasm filter=lfs diff=lfs merge=lfs -text
+*.step filter=lfs diff=lfs merge=lfs -text
+*.STEP filter=lfs diff=lfs merge=lfs -text
