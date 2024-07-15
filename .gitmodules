@@ -2,6 +2,3 @@
 [submodule "MATLABProjects/ExcavatorDesignWithSimscape"]
 	path = MATLABProjects/ExcavatorDesignWithSimscape
 	url = https://github.com/simscape/Excavator-Simscape
-[submodule "Excavator-Simscape"]
-	path = Excavator-Simscape
-	url = https://github.com/simscape/Excavator-Simscape
